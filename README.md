@@ -10,6 +10,7 @@ CUSTOMER REPAIR:
 - GreedyRepairCustomer
 - ProbabilisticGreedyRepairCustomer
 - ProbabilisticGreedyConfidenceRepairCustomer
+
 CUSTOMER DESTROY:
 - GreedyDestroyCustomer
 - WorstDistanceDestroyCustomer
@@ -22,9 +23,11 @@ CUSTOMER DESTROY:
 - ShawDestroyCustomer
 - GreedyRouteRemoval
 - ProbabilisticWorstRemovalCustomer
+
 STATION REPAIR:
 - DeterministicBestRepairStation
 - ProbabilisticBestRepairStation
+
 STATION DESTROY:
 - RandomDestroyStation
 - LongestWaitingTimeDestroyStation
@@ -68,10 +71,12 @@ La presenza di tre cartelle (*EVRPTW-main-modelled-binary*, *EVRPTW-main-modelle
 Classificazione binaria:
 -	Bad <= 1
 -	Good >1
+
 Classificazione a tre classi:
 -	Bad <= 0
 -	Good >0 && <=1500
 -	Very Good >1500
+
 Classificazione a quattro classi:
 -	Bad <= 0
 -	Normal >0 && <=1500
