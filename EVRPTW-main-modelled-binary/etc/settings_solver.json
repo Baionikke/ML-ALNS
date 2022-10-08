@@ -1,0 +1,36 @@
+{
+    "max_retry_first_feasible_sol": 100,
+    "n_scenarios" : 200,
+    "annealing_parameters" : {
+            "T_0" : 300,
+            "k" : 2,
+            "frazionamento" : 0.1
+    },
+    "alns_scores" : {
+            "global_best" : 5,
+            "current_better" : 3,
+            "solution_accepted" : 1,
+            "solution_rejected" : 0
+    },
+    "shaw_parameters" : {
+        "lambda" : 9,
+        "mu" : 3,
+        "nu" : 2,
+        "csai" : 5
+    },
+    "nb_rectangle_zones" : 4,
+    "alns_decay_parameter" : 0.9,
+    "number_iterations" : 10,
+    "number_iterations_station_removal" : 5,
+    "number_iterations_customer_op_update_weights" : 5,
+    "number_iterations_station_op_update_weights" : 5,
+    "number_iterations_waiting_update" : 1,
+    "worst_removal_determinism_factor" : 2,
+    "shaw_removal_determinism_factor" : 2,
+    "greedy_confidence" : 0.8,
+    "gamma_c" : 3,
+    "gamma_s" : 1,
+    "consider_pickup" : "Yes",
+    "SoC_tolerance" : 0.15,
+    "consider_partial" : "Yes"
+}

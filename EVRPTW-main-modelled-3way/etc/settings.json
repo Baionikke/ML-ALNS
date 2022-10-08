@@ -1,0 +1,19 @@
+{
+        "unit_energy_cost" : 0.4,
+        "driver_wage" : 1,
+        "fixed_vehicle_acquisition" : 1200,
+        "overtime_cost_numerator" : 11,
+        "overtime_cost_denominator" : 6,
+        "rho_low" : 0.3,
+        "rho_high" : 0.7,
+        "instance_file_name" : "r106_21_50.txt",
+        "service_time_generation_type" : "basic",
+        "basic_service_time" : {
+            "R" : { "low" : 8,
+                    "high" : 12},
+            "RC" : { "low" : 8,
+                    "high" : 12},
+            "C" : { "low" : 70,
+                    "high" : 1100}
+        }
+    }

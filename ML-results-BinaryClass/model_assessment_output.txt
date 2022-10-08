@@ -1,0 +1,306 @@
+Bad -> <=1
+Good -> > 1
+
+g_limit: 194
+b_limit: 1922
+++++++++++++++++++++++++++++++++++++
+
+Move: RandomDestroyStation
+[[148  16]
+ [  3 183]]
+              precision    recall  f1-score   support
+
+         Bad       0.98      0.90      0.94       164
+        Good       0.92      0.98      0.95       186
+
+    accuracy                           0.95       350
+   macro avg       0.95      0.94      0.95       350
+weighted avg       0.95      0.95      0.95       350
+
+0.9457142857142857
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 127
+b_limit: 1954
+++++++++++++++++++++++++++++++++++++
+
+Move: LongestWaitingTimeDestroyStation
+[[115   6]
+ [  8 100]]
+              precision    recall  f1-score   support
+
+         Bad       0.93      0.95      0.94       121
+        Good       0.94      0.93      0.93       108
+
+    accuracy                           0.94       229
+   macro avg       0.94      0.94      0.94       229
+weighted avg       0.94      0.94      0.94       229
+
+0.9388646288209607
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 167
+b_limit: 1990
+++++++++++++++++++++++++++++++++++++
+
+Move: DeterministicBestRepairStation
+[[139   7]
+ [  0 155]]
+              precision    recall  f1-score   support
+
+         Bad       1.00      0.95      0.98       146
+        Good       0.96      1.00      0.98       155
+
+    accuracy                           0.98       301
+   macro avg       0.98      0.98      0.98       301
+weighted avg       0.98      0.98      0.98       301
+
+0.9767441860465116
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 154
+b_limit: 1886
+++++++++++++++++++++++++++++++++++++
+
+Move: ProbabilisticBestRepairStation
+[[137   3]
+ [  3 135]]
+              precision    recall  f1-score   support
+
+         Bad       0.98      0.98      0.98       140
+        Good       0.98      0.98      0.98       138
+
+    accuracy                           0.98       278
+   macro avg       0.98      0.98      0.98       278
+weighted avg       0.98      0.98      0.98       278
+
+0.9784172661870504
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 379
+b_limit: 1556
+++++++++++++++++++++++++++++++++++++
+
+Move: GreedyDestroyCustomer
+[[305  59]
+ [ 15 304]]
+              precision    recall  f1-score   support
+
+         Bad       0.95      0.84      0.89       364
+        Good       0.84      0.95      0.89       319
+
+    accuracy                           0.89       683
+   macro avg       0.90      0.90      0.89       683
+weighted avg       0.90      0.89      0.89       683
+
+0.8916544655929722
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 427
+b_limit: 1444
+++++++++++++++++++++++++++++++++++++
+
+Move: WorstDistanceDestroyCustomer
+[[322  49]
+ [ 23 375]]
+              precision    recall  f1-score   support
+
+         Bad       0.93      0.87      0.90       371
+        Good       0.88      0.94      0.91       398
+
+    accuracy                           0.91       769
+   macro avg       0.91      0.91      0.91       769
+weighted avg       0.91      0.91      0.91       769
+
+0.9063719115734721
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 396
+b_limit: 1499
+++++++++++++++++++++++++++++++++++++
+
+Move: WorstTimeDestroyCustomer
+[[297  52]
+ [ 17 348]]
+              precision    recall  f1-score   support
+
+         Bad       0.95      0.85      0.90       349
+        Good       0.87      0.95      0.91       365
+
+    accuracy                           0.90       714
+   macro avg       0.91      0.90      0.90       714
+weighted avg       0.91      0.90      0.90       714
+
+0.9033613445378151
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 519
+b_limit: 1421
+++++++++++++++++++++++++++++++++++++
+
+Move: RandomRouteDestroyCustomer
+[[347  69]
+ [  8 470]]
+              precision    recall  f1-score   support
+
+         Bad       0.98      0.83      0.90       416
+        Good       0.87      0.98      0.92       478
+
+    accuracy                           0.91       894
+   macro avg       0.92      0.91      0.91       894
+weighted avg       0.92      0.91      0.91       894
+
+0.9138702460850112
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 304
+b_limit: 1619
+++++++++++++++++++++++++++++++++++++
+
+Move: ZoneDestroyCustomer
+[[243  57]
+ [  6 242]]
+              precision    recall  f1-score   support
+
+         Bad       0.98      0.81      0.89       300
+        Good       0.81      0.98      0.88       248
+
+    accuracy                           0.89       548
+   macro avg       0.89      0.89      0.89       548
+weighted avg       0.90      0.89      0.89       548
+
+0.885036496350365
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 340
+b_limit: 1598
+++++++++++++++++++++++++++++++++++++
+
+Move: DemandBasedDestroyCustomer
+[[270  44]
+ [ 14 285]]
+              precision    recall  f1-score   support
+
+         Bad       0.95      0.86      0.90       314
+        Good       0.87      0.95      0.91       299
+
+    accuracy                           0.91       613
+   macro avg       0.91      0.91      0.91       613
+weighted avg       0.91      0.91      0.91       613
+
+0.9053833605220228
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 325
+b_limit: 1683
+++++++++++++++++++++++++++++++++++++
+
+Move: TimeBasedDestroyCustomer
+[[244  42]
+ [ 14 286]]
+              precision    recall  f1-score   support
+
+         Bad       0.95      0.85      0.90       286
+        Good       0.87      0.95      0.91       300
+
+    accuracy                           0.90       586
+   macro avg       0.91      0.90      0.90       586
+weighted avg       0.91      0.90      0.90       586
+
+0.9044368600682594
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 307
+b_limit: 1592
+++++++++++++++++++++++++++++++++++++
+
+Move: ProximityBasedDestroyCustomer
+[[249  48]
+ [ 11 245]]
+              precision    recall  f1-score   support
+
+         Bad       0.96      0.84      0.89       297
+        Good       0.84      0.96      0.89       256
+
+    accuracy                           0.89       553
+   macro avg       0.90      0.90      0.89       553
+weighted avg       0.90      0.89      0.89       553
+
+0.8933092224231465
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 396
+b_limit: 1571
+++++++++++++++++++++++++++++++++++++
+
+Move: ShawDestroyCustomer
+[[297  55]
+ [ 19 343]]
+              precision    recall  f1-score   support
+
+         Bad       0.94      0.84      0.89       352
+        Good       0.86      0.95      0.90       362
+
+    accuracy                           0.90       714
+   macro avg       0.90      0.90      0.90       714
+weighted avg       0.90      0.90      0.90       714
+
+0.896358543417367
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 204
+b_limit: 1715
+++++++++++++++++++++++++++++++++++++
+
+Move: GreedyRouteRemoval
+[[166   1]
+ [  2 199]]
+              precision    recall  f1-score   support
+
+         Bad       0.99      0.99      0.99       167
+        Good       0.99      0.99      0.99       201
+
+    accuracy                           0.99       368
+   macro avg       0.99      0.99      0.99       368
+weighted avg       0.99      0.99      0.99       368
+
+0.9918478260869565
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 226
+b_limit: 1636
+++++++++++++++++++++++++++++++++++++
+
+Move: ProbabilisticWorstRemovalCustomer
+[[195  19]
+ [  2 192]]
+              precision    recall  f1-score   support
+
+         Bad       0.99      0.91      0.95       214
+        Good       0.91      0.99      0.95       194
+
+    accuracy                           0.95       408
+   macro avg       0.95      0.95      0.95       408
+weighted avg       0.95      0.95      0.95       408
+
+0.9485294117647058
+++++++++++++++++++++++++++++++++++++
+
+g_limit: 3823
+b_limit: 17334
+++++++++++++++++++++++++++++++++++++
+
+Move: GreedyRepairCustomer
+[[2994  453]
+ [ 192 3243]]
+              precision    recall  f1-score   support
+
+         Bad       0.94      0.87      0.90      3447
+        Good       0.88      0.94      0.91      3435
+
+    accuracy                           0.91      6882
+   macro avg       0.91      0.91      0.91      6882
+weighted avg       0.91      0.91      0.91      6882
+
+0.9062772449869224
+++++++++++++++++++++++++++++++++++++
